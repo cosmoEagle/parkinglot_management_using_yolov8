@@ -1,4 +1,4 @@
-# Car Parking Space Detection Project
+# Parkinglot Management using Yolov8
 
 This project demonstrates a simple car parking space detection system using OpenCV and cvzone. It allows you to mark parking spaces on a static image, and then it detects the occupancy of these spaces in a video feed. The project was inspired by [Murtaza's Computer Vision Zone](https://www.computervision.zone/) course.
 
@@ -9,7 +9,7 @@ This project demonstrates a simple car parking space detection system using Open
 - [Files and Folders](#files-and-folders)
 - [Contributing](#contributing)
 - [License](#license)
-- [Credits](#credits)
+
 
 ## Overview
 
@@ -24,7 +24,7 @@ The main goal of this project is to detect and monitor car parking spaces. It co
 1. Clone this repository to your local machine:
 
    ```bash
-   git clone https://github.com/harshbafnaa/car-parking-detection.git
+   git clone https://github.com/cosmoEagle/parkinglot_management_using_yolov8.git
    ```
 
 2. Install the required dependencies, including OpenCV and cvzone:
@@ -39,6 +39,7 @@ The main goal of this project is to detect and monitor car parking spaces. It co
 
    - `carPark.mp4` (video file)
    - `carParkImg.png` (static image of the parking lot)
+   - `detection_using_yolov8`
    - `parkingspacepicker.py`
    - `main.py`
 
@@ -53,6 +54,7 @@ The main goal of this project is to detect and monitor car parking spaces. It co
 - `carPark.mp4`: Input video file containing the parking lot footage.
 - `carParkImg.png`: Static image of the parking lot for marking parking spaces.
 - `parkingspacepicker.py`: Script to select and save parking space coordinates.
+- `detection_using_yolov8`: Script for detection using yolov8.
 - `main.py`: Script for processing the video and detecting parking space occupancy.
 - `CarParkPos`: Binary file containing saved parking space coordinates (created by `parkingspacepicker.py`).
 
@@ -64,8 +66,3 @@ Contributions to this project are welcome! If you have any ideas, improvements, 
 
 This project is licensed under the MIT License.
 
-## Credits
-
-- Original inspiration and educational content provided by [Murtaza's Computer Vision Zone](https://www.computervision.zone/).
-- Course link: [Computer Vision Zone YouTube Course](https://www.youtube.com/watch?v=caKnQlCMIYI).
-- This project was created by [Harsh Bafna](https://github.com/harshbafnaa)
